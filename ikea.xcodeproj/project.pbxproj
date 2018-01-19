@@ -14,6 +14,8 @@
 		5CB5F05E1FF60ED100A677B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5F05C1FF60ED100A677B0 /* LaunchScreen.storyboard */; };
 		5CB5F0691FF60ED100A677B0 /* ikeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5F0681FF60ED100A677B0 /* ikeaTests.swift */; };
 		5CB5F0741FF60ED100A677B0 /* ikeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5F0731FF60ED100A677B0 /* ikeaUITests.swift */; };
+		5CE0128D200497210084D871 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0128C200497210084D871 /* itemCell.swift */; };
+		5CE0129820056F020084D871 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0129720056F020084D871 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5CB5F06F1FF60ED100A677B0 /* ikeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB5F0731FF60ED100A677B0 /* ikeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikeaUITests.swift; sourceTree = "<group>"; };
 		5CB5F0751FF60ED100A677B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE0128C200497210084D871 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		5CE0129720056F020084D871 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		5CB5F0521FF60ED100A677B0 /* ikea */ = {
 			isa = PBXGroup;
 			children = (
+				5CE0129720056F020084D871 /* Models.scnassets */,
 				5CB5F0531FF60ED100A677B0 /* AppDelegate.swift */,
 				5CB5F0551FF60ED100A677B0 /* ViewController.swift */,
 				5CB5F0571FF60ED100A677B0 /* Main.storyboard */,
 				5CB5F05A1FF60ED100A677B0 /* Assets.xcassets */,
 				5CB5F05C1FF60ED100A677B0 /* LaunchScreen.storyboard */,
 				5CB5F05F1FF60ED100A677B0 /* Info.plist */,
+				5CE0128C200497210084D871 /* itemCell.swift */,
 			);
 			path = ikea;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB5F05E1FF60ED100A677B0 /* LaunchScreen.storyboard in Resources */,
+				5CE0129820056F020084D871 /* Models.scnassets in Resources */,
 				5CB5F05B1FF60ED100A677B0 /* Assets.xcassets in Resources */,
 				5CB5F0591FF60ED100A677B0 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB5F0561FF60ED100A677B0 /* ViewController.swift in Sources */,
+				5CE0128D200497210084D871 /* itemCell.swift in Sources */,
 				5CB5F0541FF60ED100A677B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
